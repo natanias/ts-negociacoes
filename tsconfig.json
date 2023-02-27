@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    //diretório onde vai gravar
+    "outDir": "dist/js",
+    "target": "ES6",
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "strictNullChecks": true
+  },
+  // aqui vai pegar os arquivos ts que serão lidos
+  "include": ["app/**/*"]
+}
